@@ -1,0 +1,22 @@
+{
+  "name": "ping-pong",
+  "version": "0.0.1",
+  "description": "multi player ping-pong game based on a-frame and websocket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-dev index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luolisave/games.git"
+  },
+  "author": "Li Luo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luolisave/games/issues"
+  },
+  "homepage": "https://github.com/luolisave/games#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
