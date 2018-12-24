@@ -7,7 +7,14 @@ var playerModel = {
     }
 };
 
-exports.createPlayer = function () {
-    return { ...playerModel };
+var players = [];
 
+exports.createPlayer = function () {
+    let player = Object.assign({}, playerModel);
+    players.push(player);
+    return player;
 };
+
+exports.getPlayers = () => {
+    return players;
+}

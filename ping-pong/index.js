@@ -33,7 +33,7 @@ const FPS = 30;
 const MAX_PLAYER_NUMBER = 8;
 var players = [];
 
-console.log('player.createPlayer() = ', player.createPlayer());
+console.log('player.createPlayer() = ', player.createPlayer(), ' player.getPlayers() = ', player.getPlayers());
 
 
 setInterval(function() {
